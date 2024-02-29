@@ -26,7 +26,7 @@ const SocialLinks = () => {
         {
             id:4,
             child:(<>Resume<BsFilePersonFill size={30}/></>),
-            href:'./PRATAP BHATTACHARJEE-cv.pdf',
+            href:'./Pratap Bhattacharjee.pdf',
             style:'rounded-br-md',
             download: true
         },
