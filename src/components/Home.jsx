@@ -3,6 +3,8 @@ import me from '../assets/me.jpg';
 import {MdKeyboardArrowRight} from"react-icons/md";
 import {Link} from 'react-scroll';
  const Home=()=> {
+
+ 
   return (
     <div  name="home" 
     className='h-screen w-full bg-gradient-to-b from-green-800 to-red-800'>
@@ -12,9 +14,10 @@ import {Link} from 'react-scroll';
 
             <div className='flex flex-col justify-center h-full'>
                 <h6 className='text-2xl sm:text-4xl  text-white'>
-                HI,I AM
+                HI,its me
                 </h6>
                 <h3 className='text-4xl sm:text-7xl font-bold text-white'>PRATAP BHATTACHARJEE</h3>
+           
                 <p className=' text-white text-2xl sm:text-2xl  py-4 max-w-md '>
                 I’m a hard-working, passionate person who believes in the importance of education and accessibility to technological advancements.
                 </p>

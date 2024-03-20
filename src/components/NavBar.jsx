@@ -1,12 +1,17 @@
 import React, { useState } from 'react'
 import {FaBars,FaTimes}from "react-icons/fa";
 import { Link } from 'react-scroll';
-
-
-
+import { useTypewriter } from 'react-simple-typewriter';
 
 const NavBar=()=> {
     const [nav,setnav]=useState(false);
+    const [typeEffect] = useTypewriter({
+        words:['Pratap Bhattacharjee  '],
+        loop:true,
+        typeSpeed:100,
+        deleteSpeed:40
+    })
+    
 
     const links=[
         {
@@ -32,15 +37,15 @@ const NavBar=()=> {
              
         },
         {
-            id:5,
+            id:6,
             link:'contact'
               
          },
     ]
   return (
     <div className='flex justify-between items-center w-full h-20 px-5 text-white  bg-green-900 fixed z-10'>
-        <div>
-            <h1 className='text-4xl font-signature ml-2'>Pratap Bhattacharjee</h1>
+        <div className=''>
+            <h1 className='text-4xl font-signature ml-2 t'><span>{typeEffect}</span></h1>
         </div>
 
         <ul className='hidden md:flex'>

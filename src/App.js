@@ -22,13 +22,6 @@ function App() {
       <Gallery/>
       <Contact/>
       <Footer/>
-     
-
-
-
-      
-
-
     </div>
   
   );

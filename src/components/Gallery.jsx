@@ -6,7 +6,7 @@ import voyage from "../assets/portfolio/voyage.jpg";
 import deptcse from "../assets/portfolio/deptcse.jpg";
 import picnic1 from "../assets/portfolio/picnic1.jpg";
 import picnic from "../assets/portfolio/picnic.jpg";
-import d from "../assets/portfolio/d.jpg";
+import dcss from "../assets/portfolio/dcss.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -34,14 +34,14 @@ const Gallery = () => {
           </div>
         <div className=' justify-center items-center py-0'>
               <Slider {...settings}>
-                {Data.map((d)=>(
+                {Data.map(({name,name1,img})=>(
                   <div className=' text-black rounded-xl'>
                     <div className='rounded-2xl py-1'>
-                      <img src={d.img} alt={d.name1}className=' rounded-2xl mx-auto md:w-full  h-50 duration-200 hover:scale-105'/>
+                      <img src={img} alt={name1}className=' rounded-2xl mx-auto md:w-full  h-50 duration-200 hover:scale-105'/>
                     </div>
 
                     <div className='pb-2'>
-                      <p className='mt-1 text-2xl flex justify-center text-white items-center font-signature '>{d.name}</p>
+                      <p className='mt-1 text-2xl flex justify-center text-white items-center font-signature '>{name}</p>
                       {/*<button>readmore</button>*/}
                     
                     </div>
@@ -85,7 +85,7 @@ const Data=[
   },
   {
     name:`KUCSE`,
-    img:d,
+    img:dcss,
     name1:``,
   },
 ]
