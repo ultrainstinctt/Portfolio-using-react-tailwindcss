@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-using-react-tailwindcss/static/css/main.fece47f5.css",
-    "main.js": "/Portfolio-using-react-tailwindcss/static/js/main.82c98d49.js",
+    "main.js": "/Portfolio-using-react-tailwindcss/static/js/main.4c9d583c.js",
     "static/media/ocs.png": "/Portfolio-using-react-tailwindcss/static/media/ocs.cb07e08bb3d8ca6add5d.png",
     "static/media/picnic1.jpg": "/Portfolio-using-react-tailwindcss/static/media/picnic1.6df719b6ef4cfd65cf4d.jpg",
     "static/media/deptcse.jpg": "/Portfolio-using-react-tailwindcss/static/media/deptcse.0e9191971b78fc51e51c.jpg",
@@ -32,10 +32,10 @@
     "static/media/slick.woff": "/Portfolio-using-react-tailwindcss/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio-using-react-tailwindcss/index.html",
     "main.fece47f5.css.map": "/Portfolio-using-react-tailwindcss/static/css/main.fece47f5.css.map",
-    "main.82c98d49.js.map": "/Portfolio-using-react-tailwindcss/static/js/main.82c98d49.js.map"
+    "main.4c9d583c.js.map": "/Portfolio-using-react-tailwindcss/static/js/main.4c9d583c.js.map"
   },
   "entrypoints": [
     "static/css/main.fece47f5.css",
-    "static/js/main.82c98d49.js"
+    "static/js/main.4c9d583c.js"
   ]
 }
