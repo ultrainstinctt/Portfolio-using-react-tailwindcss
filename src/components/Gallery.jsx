@@ -21,23 +21,24 @@ const Gallery = () => {
     slidesToScroll: 1,
     waitForAnimate: true,
     autoPlay:true,
+    
   
   };
   return (
-    <div   name="gallery" className="w-full h-screen bg-gradient-to-b from-green-800 to-red-800 p-4 text-white">
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-          <div className="pb-8">
+    <div   name="gallery" className="w-full h-screen bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... p-4 text-white">
+        <div className='max-w-screen-lg p-4 mt-12 mx-auto flex flex-col justify-center w-full h-full'>
+          <div className="pb-4">
             <p className="text-4xl font-bold inline border-b-4  border-gray-500">
               Gallery
             </p>
-            <p className="py-6 ">Check out some of my Picture here</p>
+            <p className="py-2 ">Check out some of my Picture here</p>
           </div>
-        <div className=' justify-center items-center py-0'>
+        <div className='justify-center items-center w-full'>
               <Slider {...settings}>
                 {Data.map(({name,name1,img})=>(
                   <div className=' text-black rounded-xl'>
                     <div className='rounded-2xl py-1'>
-                      <img src={img} alt={name1}className=' rounded-2xl mx-auto md:w-full  h-50 duration-200 hover:scale-105'/>
+                      <img src={img} alt={name1}className=' rounded-2xl mx-auto md:w-full h-50 duration-200 hover:scale-105'/>
                     </div>
 
                     <div className='pb-2'>

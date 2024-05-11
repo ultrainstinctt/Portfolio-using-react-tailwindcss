@@ -7,7 +7,7 @@ import {Link} from 'react-scroll';
  
   return (
     <div  name="home" 
-    className='h-screen w-full bg-gradient-to-b from-green-800 to-red-800'>
+    className='h-screen w-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...'>
       
         <div  className='max-w-screen-lg mx-auto flex flex-col 
         items-center justify-center h-full px-4 md:flex-row'>

@@ -43,7 +43,7 @@ const NavBar=()=> {
          },
     ]
   return (
-    <div className='flex justify-between items-center w-full h-20 px-5 text-white  bg-green-900 fixed z-10'>
+    <div className='flex justify-between items-center w-full h-20 px-5 text-white bg-gradient-to-r from-pink-400 to-yellow-500 bg-green-900 fixed z-10'>
         <div className=''>
             <h1 className='text-4xl font-signature ml-2 t'><span>{typeEffect}</span></h1>
         </div>
