@@ -8,19 +8,19 @@ const SocialLinks = () => {
         {
             id:1,
             child:(<>Linkedin<FaLinkedin size={30}/></>),
-            href:'https://linkedin.com',
+            href:'https://www.linkedin.com/in/pratap-bhattacharjee-657496260',
             style:'rounded-tr-md'
         },
         {
             id:2,
             child:(<>github<FaGithub size={30}/></>),
-            href:'https://github.com',
+            href:'https://github.com/ultrainstinctt',
             
         },
         {
             id:3,
             child:(<>Email<HiOutlineMail size={30}/></>),
-            href:'mailto:foo@gmail.com',
+            href:'mailto:cse.pratap69@gmail.com',
         
         },
         {
