@@ -1,10 +1,12 @@
 import React from "react";
 import p from "../assets/portfolio/p.png";
 import ocs from "../assets/portfolio/ocs.png";
+import todo from "../assets/portfolio/todo.png";
 //import navbar from "../assets/portfolio/navbar.jpg";
 //import reactParallax from "../assets/portfolio/reactParallax.jpg";
 //import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 //import reactWeather from "../assets/portfolio/reactWeather.jpg";
+
 import usn from "../assets/portfolio/usn.jpg"
 
 const Portfolio = () => {
@@ -24,7 +26,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: usn,
+      src: todo,
       demo:'https://pratapb-e308a.web.app/',
       code:'https://pratapb-e308a.web.app/',
     },

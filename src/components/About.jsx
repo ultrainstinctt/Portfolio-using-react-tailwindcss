@@ -12,7 +12,7 @@ const About = () => {
             <p className='text-xl mt-20'>
             I am from <b>Santipur</b>, Dist: Nadia,West Bengal,741404.I completed my schooling from <b>Santipur Municipal High School </b>for secondary & Higher secondary.
             I graduated with a Bachelor of Science in  Computer Science (Honours) from <b>Kanchrapara College</b>, Kanchrapara, West Bengal under the <b>University of Kalyani</b>, Kalyani, West Bengal. I did a Master of Science in Computer Science from the<b> Department of Computer Science and Engineering of University of Kalyani</b>, Nadia, West Bengal.
-            I cleared the 26th Wbset exam which is conducted by West Bengal College service commission .
+            I cleared the 26th Wbset exam which is conducted by West Bengal College service commission.
 
             </p>
                     
