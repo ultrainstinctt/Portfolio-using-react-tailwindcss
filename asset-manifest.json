@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio-using-react-tailwindcss/static/css/main.a4713cf6.css",
-    "main.js": "/Portfolio-using-react-tailwindcss/static/js/main.ace015e5.js",
+    "main.js": "/Portfolio-using-react-tailwindcss/static/js/main.f354a0ca.js",
     "static/media/ocs.png": "/Portfolio-using-react-tailwindcss/static/media/ocs.cb07e08bb3d8ca6add5d.png",
+    "static/media/Screenshotmap.png": "/Portfolio-using-react-tailwindcss/static/media/Screenshotmap.580a91e575ce6a867f63.png",
     "static/media/picnic1.jpg": "/Portfolio-using-react-tailwindcss/static/media/picnic1.6df719b6ef4cfd65cf4d.jpg",
     "static/media/deptcse.jpg": "/Portfolio-using-react-tailwindcss/static/media/deptcse.0e9191971b78fc51e51c.jpg",
     "static/media/holi.jpg": "/Portfolio-using-react-tailwindcss/static/media/holi.7d8f3eb7385ed1b758ff.jpg",
@@ -11,6 +12,7 @@
     "static/media/picnic.jpg": "/Portfolio-using-react-tailwindcss/static/media/picnic.1d2076466a3f83c2ffd4.jpg",
     "static/media/todo.png": "/Portfolio-using-react-tailwindcss/static/media/todo.03a5999f27c5bbe08539.png",
     "static/media/python.png": "/Portfolio-using-react-tailwindcss/static/media/python.d8b377f05522bf35de36.png",
+    "static/media/Screenshotcrud.png": "/Portfolio-using-react-tailwindcss/static/media/Screenshotcrud.b8f7f9332cf8ed1b78d1.png",
     "static/media/dcss.jpg": "/Portfolio-using-react-tailwindcss/static/media/dcss.f09402bb9509ebf70802.jpg",
     "static/media/java.png": "/Portfolio-using-react-tailwindcss/static/media/java.fdabd4e11f1235e4e8e0.png",
     "static/media/R.png": "/Portfolio-using-react-tailwindcss/static/media/R.49cc578eacbc4fd89cac.png",
@@ -33,10 +35,10 @@
     "static/media/slick.woff": "/Portfolio-using-react-tailwindcss/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio-using-react-tailwindcss/index.html",
     "main.a4713cf6.css.map": "/Portfolio-using-react-tailwindcss/static/css/main.a4713cf6.css.map",
-    "main.ace015e5.js.map": "/Portfolio-using-react-tailwindcss/static/js/main.ace015e5.js.map"
+    "main.f354a0ca.js.map": "/Portfolio-using-react-tailwindcss/static/js/main.f354a0ca.js.map"
   },
   "entrypoints": [
     "static/css/main.a4713cf6.css",
-    "static/js/main.ace015e5.js"
+    "static/js/main.f354a0ca.js"
   ]
 }
